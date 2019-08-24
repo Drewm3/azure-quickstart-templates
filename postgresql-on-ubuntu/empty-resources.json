@@ -36,11 +36,7 @@
     },
     "dnsName": {
       "type": "string",
-      "defaultValue":""
-    },
-    "storageSettings": {
-      "type": "object",
-      "defaultValue": {}
+      "defaultValue": ""
     }
   },
   "variables": {},
