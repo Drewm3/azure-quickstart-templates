@@ -27,7 +27,7 @@
       "properties": {
         "roleDefinitionId": "[variables('contributor')]",
         "principalId": "[parameters('principalId')]",
-        “principalType”:”ServicePrincipal”,
+        "principalType":"ServicePrincipal",
         "scope": "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
       }
     }
